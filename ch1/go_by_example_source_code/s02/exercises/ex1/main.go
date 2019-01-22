@@ -10,7 +10,7 @@ func main() {
 	int2 := 4
 	int3 := 6
 
-	fmt.Println((int1 + int2 + int3) / 3)
+	fmt.Printf("average of %d, %d, and %d is %d. \n", int1, int2, int3, (int1+int2+int3)/3)
 }
 
 // average of 3 integers is 4
