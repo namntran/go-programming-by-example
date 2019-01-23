@@ -6,13 +6,8 @@ import "fmt"
 
 func main() {
 	fmt.Println("Program to calculate Fahrenheit into Celsius")
-	// var f float32 = 86
-	// var c float32
 	fmt.Println("Enter the temperature in Fahrenheit: ")
-	// fmt.Scanf("%f", &f)
 	celsius()
-	// c = (f - 32) * 5 / 9
-	// fmt.Println("Fahrenheit: ", f, "\nCelsius:", c)
 }
 func celsius() {
 	var f float32 = 86
