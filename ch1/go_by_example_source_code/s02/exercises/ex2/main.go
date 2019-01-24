@@ -10,7 +10,7 @@ func main() {
 	celsius()
 }
 func celsius() {
-	var f float32 = 86
+	var f float32
 	var c float32
 	fmt.Scanf("%f", &f)
 	c = (f - 32) * 5 / 9
