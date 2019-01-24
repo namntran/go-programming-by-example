@@ -9,12 +9,18 @@ func main() {
 	fmt.Println("Program to calculate area of a circle")
 	fmt.Println("Enter the radius of the circle: ")
 	circle()
+
 }
 func circle() {
 	const PI float64 = 3.14159265359
 	var r float64
 	var area float64
+	var circum float64
+
 	fmt.Scanln(&r)
 	area = PI * r * r
 	fmt.Println("Area of a circle is: ", area)
+	circum = 2 * PI * r
+	fmt.Println("Circumference of a circles is: ", circum)
+
 }
